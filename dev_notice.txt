@@ -1,0 +1,4 @@
+you have to change time.clock to time.perf_counter in file 
+ File "C:\Users\ermias.mulugeta\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\sqlalchemy\util\compat.py", line 264, in <module>
+    time_func = time.clock
+AttributeError: module 'time' has no attribute 'clock'
