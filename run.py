@@ -49,7 +49,7 @@ def register():
         cur.execute('INSERT INTO creds (user_name,first_name,last_name,email,password)'
             'VALUES (%s, %s, %s, %s,%s,%s)',
             (
-            # id,
+            id,
             name,
              password,
              first_name,
